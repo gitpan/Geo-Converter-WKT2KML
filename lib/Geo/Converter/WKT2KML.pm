@@ -4,8 +4,9 @@ use warnings;
 use strict;
 use Carp;
 use XML::Simple;
+$XML::Simple::PREFERRED_PARSER = 'XML::Parser';
 
-use version; our $VERSION = qv('0.0.2');
+use version; our $VERSION = qv('0.0.3');
 use base 'Exporter';
 
 our @EXPORT = qw(
@@ -244,6 +245,8 @@ Returns WKT.
 =item C<< XML::Simple >>
 
 =item C<< Test::Base >>
+
+=item C<< XML::Parser >>
 
 =back
 

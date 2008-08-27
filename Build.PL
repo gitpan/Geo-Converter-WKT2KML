@@ -12,6 +12,7 @@ my $builder = Module::Build->new(
         'version'     => 0,
         'Exporter'    => 0,
         'XML::Simple' => 0,
+        'XML::Parser' => 0,
     },
     add_to_cleanup      => [ 'Geo-Converter-WKT2KML-*' ],
 );
