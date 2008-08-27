@@ -1,6 +1,6 @@
 ---
 name: Geo-Converter-WKT2KML
-version: 0.0.1
+version: 0.0.2
 author:
   - 'OHTSUKA Ko-hei <nene@kokogiko.net>'
 abstract: Simple converter between WKT and KML
@@ -15,7 +15,7 @@ requires:
 provides:
   Geo::Converter::WKT2KML:
     file: lib/Geo/Converter/WKT2KML.pm
-    version: 0.0.1
+    version: 0.0.2
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
